@@ -1,3 +1,4 @@
+# https://www.reddit.com/r/dailyprogrammer/comments/3ke4l6/20150909_challenge_231_intermediate_set_game/
 from itertools import combinations
 data = open("cards.txt").read().splitlines()
 
