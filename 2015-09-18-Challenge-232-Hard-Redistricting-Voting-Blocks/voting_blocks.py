@@ -1,5 +1,4 @@
 # https://www.reddit.com/r/dailyprogrammer/comments/3lf3i2/20150918_challenge_232_hard_redistricting_voting/
-
 import numpy as np
 import math
 from decimal import *
