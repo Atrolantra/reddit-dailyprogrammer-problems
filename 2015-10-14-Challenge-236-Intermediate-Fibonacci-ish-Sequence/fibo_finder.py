@@ -26,7 +26,7 @@ def fib_maker(noFame):
 			divvy = noFame / y
 			index = fibSequence.index(y)
 			break
-	# Chop up the list to bigges factor number's index
+	# Chop up the list to the biggest factor number's index
 	outSequence = fibSequence[:index + 1]
 	# The list we're after will be that multiplied
 	# by that multiple due to a quirk in how the 
