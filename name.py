@@ -13,8 +13,7 @@ def edited(path):
 
 
 
-
-for x in os.walk("C:\Users\Eric\Documents\GitHub\/reddit-dailyprogrammer-problems"):
-	for y in x:
-		if "2015" in y:
-			os.rename(y, edited(y))
+files = os.listdir("C:\Users\Eric\Documents\GitHub\/reddit-dailyprogrammer-problems")
+for filename in files:
+	if "2015" in y:
+		os.rename(y, edited(y))
